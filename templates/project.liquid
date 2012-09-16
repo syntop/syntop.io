@@ -4,12 +4,13 @@
   <body id="{{slug}}">
     <section id="wrapper">
       {% include "shared/header" %}	
-      {% include "shared/nav" %}
         <article>
             <section role="main">
-                {{body}}
+                <h1>{{ headline }}</h1>
+                {{ body }}
             </section>
         </article>
+      {% include "shared/nav" %}
     </section>
     {% include "shared/piwik" %}
   </body>
