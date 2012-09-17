@@ -12,7 +12,7 @@ Lokales Setup auf OSX
 3.  Ins Verzeichnis wechseln:  
     `cd syntop.io`
 4.  Das GitHub-Pages-Repository ins Unterverzeichnis `site` klonen:  
-    `git clone -b gh-pages git@github.com:syntop/syntop.io.git`
+    `git clone -b gh-pages git@github.com:syntop/syntop.io.git site`
 5.  Lokalen Webserver starten:  
     `bonsai --cultivate`
 6.  Hacken.
