@@ -7,6 +7,15 @@
         <article>
             <section role="main">
                 <h1>{{ headline }}</h1>
+                
+                {% if images|size %}
+                    <div class="images">
+                        {% for image in images %}
+                            <img src="{{ image.path }}" alt="{{ image.name }}">
+                        {% endfor %}
+                    </div>
+                {% endif %}
+                
                 {{ body }}
             </section>
         </article>
